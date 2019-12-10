@@ -77,9 +77,6 @@ body{overflow-x: hidden;}
   /* letter-spacing: 4px; padding-top: 940px; padding-left: 130px; font-family: AudreyR; font-weight: 100; font-size: 40px; height: 60px; z-index: 2000; margin: 0; */
   /* letter-spacing: 4px; padding-top: 2240px; padding-left: 1330px; font-family: AudreyR; font-weight: 100; font-size: 40px; height: 60px; z-index: 2000; margin: 0; */
 }
-  /* .progress-container label {
-    display:inline-block;
-  } */
   
   @keyframes anim {
     0% {
@@ -94,8 +91,24 @@ body{overflow-x: hidden;}
   }
   
 
+/* 글자위 이미지 애니메이션 편집 */
 
+/* #wrap .slide{
+  -webkit-animation:slide 3s;
+  -moz-animation:slide 3s;
+  animation:slide 3s;
+}
+@keyframes slide{
+  0%{
+    margin-left:100%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+} */
 
+.slide img{margin-left: 100%; transition: margin-left 2s;}
+.slide.on img{margin-left: 0%; }
 
 /* Map */
 /* 버튼 */
@@ -130,3 +143,4 @@ button{border: none;background: none;cursor: pointer;font-family: inherit;color:
 #map .result .add_detail li {display: none;}
 #map .result .add_detail li.on {display: inline-block;position: relative;color: white;}
 
+.intro_bg1{height: 550px; background: url(../images/map/top_pic.jpg) no-repeat center top;}
