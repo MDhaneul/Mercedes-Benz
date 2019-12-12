@@ -142,9 +142,9 @@ a:link, a:visited, a:hover, a:active{color: inherit;text-decoration: none;}
 #content .amg_article .amg_link_odd{right: 240px; width: 270px;}
 #content .amg_article .amg_link_even{left: 230px; width: 350px;}
 
-#content .amg_article .amg_txt_odd_wrap, #content .amg_article .amg_txt_even_wrap{line-height: 2; font-size: 24px; left: 200px; top: -100px;}
+#content .amg_article .amg_txt_odd_wrap, #content .amg_article .amg_txt_even_wrap{line-height: 2; font-size: 18px; left: 200px; top: -100px;}
 #content .amg_article .amg_txt_odd_wrap{left: 200px;}
-#content .amg_article .amg_txt_even_wrap{color:white; right: 200px; margin-top: -200px;}
+#content .amg_article .amg_txt_even_wrap{color:#1e1e1e; left: 900px;}
 #content .amg_article .amg_txt_odd_wrap p, #content .amg_article .amg_txt_even_wrap p{margin-bottom: 20px;}
 #content .amg_article .amg_txt_odd_wrap span, #content .amg_article .amg_txt_even_wrap span{font-size: 15px;}
 /* 이미지 애니메이션 편집 */
@@ -274,16 +274,20 @@ a:link, a:visited, a:hover, a:active{color: inherit;text-decoration: none;}
   border-radius: 0 0 45px 0;
 }
 #content .enginSub_Text{
-  line-height: 30px;
+  letter-spacing: 4px;
   position: relative;
   top: 890px;
   left: 600px;
   text-shadow: 3px 3px 7px #000;
   font-size: 40px;
+  font-family: AudreyR;
 }
 #content .sub_enginSub_Text{
-  font-size: 20px;
+  font-family: SCDream;
+  font-size: 16px;
   padding-top: 53px;
+  letter-spacing: 0;
+  line-height: 2;
 }
 /* PERFORMANCE WITH AMG */
 #content .Title_AMG{
@@ -418,6 +422,57 @@ text-align: center;
 #mainSlider .bx-controls .bx-pager{top: 7500px;left: 50%;margin-left: -63.5px;width: 100px;}/* 인디케이터 li하나의 크기 25 X 4 = 100, 100(인디케이터) + 27(시작과정지) = 127, 127 / 2 = 63.5px */
 #mainSlider .bx-controls .bx-pager a{float: left;width: 15px;height: 15px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;border: 2px solid #d63434;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin-right: 10px;}
 #mainSlider .bx-controls .bx-pager a.active{background: #d63434;}/* 활성화된 인디케이터 .active라는 클래스명을 스크립트에서 자동을 추가함 */
+
+#mainSlider .visual li div {
+	position: relative;
+}
+#mainSlider .visual li div a:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+#mainSlider .visual li div a:hover:before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 120%;
+		height: 120%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 120%;
+		height: 120%;
+		opacity: 0;
+	}
+}
+
+
 
 /* Map */
 /* 버튼 */

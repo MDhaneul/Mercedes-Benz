@@ -103,7 +103,7 @@ iframe{border: none;}
 
 
 /* models modal */
-.slider ul li .md_11{display: none;}
+.slider ul li .md_models + div{display: none;}
 .featherlight .featherlight-content{padding: 0;margin: 0;width: 1250px;background: #fff;text-align: center;border:none;}
 .featherlight .featherlight-content .md_11{height: 897px;}
 .featherlight .featherlight-content .md_cnt.md_cnt2{height: 650px;}
