@@ -105,11 +105,12 @@
 
 
 /* tag reset */
-body, ul, h1, h2, h3, h4, h5, h6, p, button{margin: 0; padding: 0;}
+body, ul, h1, h2, h3, h4, h5, p{margin: 0; padding: 0;}
 ul{list-style: none;}
 a:link, a:visited, a:hover, a:active{color: inherit; text-decoration: none;}
 img{vertical-align: top; border: none;}
 address{font-style: normal;}
+button{border: none; background: none; cursor: pointer; font-family: inherit; color: inherit; font-size: inherit;}
 header, nav, section, article, footer{display: block;}
 
 /* common class */
