@@ -397,6 +397,25 @@ text-align: center;
 .amg_headline .amg_skiplist, .amg_headline .amg_skiplist li a, .amg_headline .amg_skiplist li a img, .amg_headline .amg_skiplist li a:after{overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
 
 
+/* 슬라이더 */
+#mainSlider .visual li{position:absolute; display:inline-block; width: 533px; height: 700px; top: 60px;}
+/* #mainSlider .visual li img{display: block;} */
+#mainSlider .visual li p{font-size: 32px; font-weight: 300;}
+
+/* 슬라이더 제어버튼 .bx-controls : 이전과 다음(.bx-controls-direction), 시작과정지(.bx-controls-auto), 인디케이터(.bx-pager) */
+#mainSlider .bx-controls .bx-controls-direction a, #mainSlider .bx-controls .bx-controls-auto, #mainSlider .bx-controls .bx-pager{position: absolute;z-index: 100;}
+#mainSlider .bx-controls .bx-controls-direction a, #mainSlider .bx-controls .bx-pager a{text-indent: -9999px;}
+
+/* 이전과 다음 */
+#mainSlider .bx-controls .bx-controls-direction a{top: 312px;width: 54px;height: 53px;}
+#mainSlider .bx-controls .bx-controls-direction .bx-prev{left: 20px;background: url("../images/amg/btn_prev.png");}
+#mainSlider .bx-controls .bx-controls-direction .bx-next{right: 20px;background: url("../images/amg/btn_next.png");}
+
+/* 인디케이터 */
+#mainSlider .bx-controls .bx-pager{top: 556px;left: 50%;margin-left: -63.5px;width: 100px;}/* 인디케이터 li하나의 크기 25 X 4 = 100, 100(인디케이터) + 27(시작과정지) = 127, 127 / 2 = 63.5px */
+#mainSlider .bx-controls .bx-pager a{float: left;width: 15px;height: 15px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;border: 2px solid #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin-right: 10px;}
+#mainSlider .bx-controls .bx-pager a.active{background: #fff;}/* 활성화된 인디케이터 .active라는 클래스명을 스크립트에서 자동을 추가함 */
+
 /* Map */
 /* 버튼 */
 /* #map{b;} */

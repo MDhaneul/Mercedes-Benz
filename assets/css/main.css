@@ -111,22 +111,22 @@
 #idxSlider .bx-controls .bx-pager a.active{background: #5a90d6;}
 
 /* fade */
-.section .idx_pic1, .section .idx_pic2, .section .idx_pic3{top: 100px; left: 0; width: 960px; height: 540px;}
-.section .idx_pic1{background: url(../images/index/s_class_1.jpg);}
-.section .idx_pic2{background: url(../images/index/e_class_1.jpg);}
-.section .idx_pic3{background: url(../images/index/c_class_1.jpg);}
+.section .idx_pic1, .section .idx_pic2, .section .idx_pic3{top: 100px; left: 0; width: 50vw; height: 50vh; background: no-repeat;}
+.section .idx_pic1{background-image: url(../images/index/s_class_1.jpg);}
+.section .idx_pic2{background-image: url(../images/index/e_class_1.jpg);}
+.section .idx_pic3{background-image: url(../images/index/c_class_1.jpg);}
 
-.section h2{top: 660px; left: 760px; font-family: GGBatangB; font-size: 55px;}
-.section .idx_txt_wrap{top: 160px; left: 1060px; line-height: 2;}
+.section h2{top: 65vh; left: 38vw; font-family: GGBatangB; font-size: 55px;}
+.section .idx_txt_wrap{top: 160px; left: 55vw; line-height: 2;}
 .section .idx_txt_wrap strong{display: block; margin-bottom: 40px; font-size: 20px;}
 .section .idx_txt_wrap p{margin-bottom: 10px;}
 .section .idx_txt_wrap a{display: block; margin-top: 20px; width: 85px; height: 30px; line-height: 28px; text-align: center; border-bottom: 1px solid #424242;}
 .section .idx_txt_wrap a:hover, .section .idx_txt_wrap a:focus{border-bottom-color: #5a90d6; color: #5a90d6;}
 
-.section .idx_pic_sub1, .section .idx_pic_sub2, .section .idx_pic_sub3{bottom: 0; right: 0; width: 640px; height: 360px;}
-.section .idx_pic_sub1{background: url(../images/index/s_class_2.jpg);}
-.section .idx_pic_sub2{background: url(../images/index/e_class_2.jpg);}
-.section .idx_pic_sub3{background: url(../images/index/c_class_2.jpg);}
+.section .idx_pic_sub1, .section .idx_pic_sub2, .section .idx_pic_sub3{bottom: 0; right: 0; width: 35vw; height: 35vh; background: no-repeat top right;}
+.section .idx_pic_sub1{background-image: url(../images/index/s_class_2.jpg);}
+.section .idx_pic_sub2{background-image: url(../images/index/e_class_2.jpg);}
+.section .idx_pic_sub3{background-image: url(../images/index/c_class_2.jpg);}
 
 .fade{-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)'; opacity: 0; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s;}
 .fade.on{-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)'; opacity: 1;}
