@@ -4,39 +4,41 @@ $(document).ready(function (){
     $('.H').delay(2000).animate({opacity:"1"}, 2500);
     $('.P').delay(3000).animate({opacity:"1"}, 1000);
     $('.E').delay(2000).animate({opacity:"1"}, 2500);
+    $('.benzName').delay(5000).animate({opacity:"1"},600);
+    $('.OA').delay(5400).animate({opacity:"1"},700);
+    $('.YC').delay(5400).animate({opacity:"1"},700);
 
-    var current1 = 0;   //시작되는 이미지의 번호
+    // var timer = setInterval(function () {
+    //     $('.benzName').eq(current1).animate({opacity: 1});
+    //     current++;    //1, 2,3,4......8
 
-    var timer = setInterval(function () {
-        $('.benzName').eq(current1).animate({opacity: 1});
-        current++;    //1, 2,3,4......8
-
-        if (current1 == maxNum) clearInterval(timer);
-        console.log(current1);
-      }, 5000);
+    //     if (current1 == maxNum) clearInterval(timer);
+    //     console.log(current1);
+    //   }, 5000);
     
-    var current2 = 0;   //시작되는 이미지의 번호
+    // var current2 = 0;   //시작되는 이미지의 번호
 
-    var timer = setInterval(function () {
-        $('.OA').eq(current2).animate({opacity: 1});
-        current++;    //1, 2,3,4......8
+    // var timer = setInterval(function () {
+    //     $('.OA').eq(current2).animate({opacity: 1});
+    //     current++;    //1, 2,3,4......8
 
-        if (current2 == maxNum) clearInterval(timer);
-        console.log(current2);
-      }, 5000);
+    //     if (current2 == maxNum) clearInterval(timer);
+    //     console.log(current2);
+    //   }, 5000);
     
-    var current3 = 0;   //시작되는 이미지의 번호
+    // var current3 = 0;   //시작되는 이미지의 번호
 
-    var timer = setInterval(function () {
-        $('.YC').eq(current3).animate({opacity: 1});
-        current++;    //1, 2,3,4......8
+    // var timer = setInterval(function () {
+    //     $('.YC').eq(current3).animate({opacity: 1});
+    //     current++;    //1, 2,3,4......8
 
-        if (current3 == maxNum) clearInterval(timer);
-        console.log(current3);
-      }, 5000);
+    //     if (current3 == maxNum) clearInterval(timer);
+    //     console.log(current3);
+    //   }, 5000);
 
-    var current4 = 0;   //시작되는 이미지의 번호
-
+    // var current4 = 0;   //시작되는 이미지의 번호
+    var current4 = 0;
+    var maxNum = 2;
     var timer = setInterval(function () {
         $('.container').eq(current4).animate({opacity: 1});
         current++;    //1, 2,3,4......8

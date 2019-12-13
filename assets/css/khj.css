@@ -16,7 +16,7 @@
 .highlight{height: 30px;margin-top:10px;font-size: 25px;}
 .cnt p{font-size: 15px;line-height: 30px;}
 .txt_line{border-bottom: 11px solid #e9e9e9;padding-bottom: 60px;margin-bottom: 60px;}
-.intro+.area{padding-bottom: 369px;}
+.intro+.area{padding-bottom: 250px;}
 
 /* 회사소개 */
 .company_btn li{display: inline-block;padding: 0 20px 11px;}
@@ -54,7 +54,6 @@
 .design .design2 .f_l{width: 540px; padding-right: 43px; padding-top: 150px;}
 .design .design2 .highlight{margin-top:10px;}
 .design .design2 p{padding:60px 0 80px;}
-.design .design2 .highlight, .design .design2 p{}
 .design .design2 img{float:right;}
 
 .design .design3{margin-bottom: 269px;}
