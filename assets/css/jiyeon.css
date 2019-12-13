@@ -24,6 +24,7 @@ iframe{border: none;}
 .md_info > .area > .class > ul > li > a{display: block;padding-left: 25px;}
 
 .info1{margin-top: 170px;height: 930px;background: #000;}
+#ytplayer{width: auto;height: auto;min-width: 100%;min-height: 100%;}
 
 /* slider 공통 스타일 */
 .slider{position: relative;height: 820px;margin-top: 100px;}
