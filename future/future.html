@@ -10,10 +10,29 @@
 
     <script src="../assets/js/jquery-1.12.4.min.js"></script>
     <script src="../assets/js/common.js"></script>
-    <script src="../assets/js/future.js"></script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <![endif]-->
+    <script>
+        $(document).ready(function(){
+            var $win = $(window);
+            var winHei=$win.height();	// window height
+
+            $("#intro .eq_headline .eq_skiplist li a").on("click", function () {
+                var $list = $("#intro .eq_headline .eq_skiplist");
+                var idx = $(this).parent().index();
+
+                $(this).closest(".eq_skiplist").toggleClass("active");
+
+                if ($list.hasClass("active")) $list.stop().animate({height:360}, "fast").css({background: 'rgba(0,0,0,0.9)'});
+                else $list.stop().animate({height:45}, "fast").css({color: '#fff', background: 'none'});
+
+                if (idx) location.href = '#eq_article' + idx;
+
+                return false;
+            });
+         });
+    </script>
 </head>
 
 <body>

@@ -4,60 +4,47 @@ $(document).ready(function (){
     $('.H').delay(2000).animate({opacity:"1"}, 2500);
     $('.P').delay(3000).animate({opacity:"1"}, 1000);
     $('.E').delay(2000).animate({opacity:"1"}, 2500);
-});
 
-$(document).ready(function() {
-    var current = 0;   //시작되는 이미지의 번호
-    var maxNum = 8;
+    var current1 = 0;   //시작되는 이미지의 번호
 
     var timer = setInterval(function () {
-        $('.benzName').eq(current).animate({opacity: 1});
+        $('.benzName').eq(current1).animate({opacity: 1});
         current++;    //1, 2,3,4......8
 
-        if (current == maxNum) clearInterval(timer);
-        console.log(current);
+        if (current1 == maxNum) clearInterval(timer);
+        console.log(current1);
       }, 5000);
-});
-
-$(document).ready(function() {
-    var current = 0;   //시작되는 이미지의 번호
-    var maxNum = 8;
+    
+    var current2 = 0;   //시작되는 이미지의 번호
 
     var timer = setInterval(function () {
-        $('.OA').eq(current).animate({opacity: 1});
+        $('.OA').eq(current2).animate({opacity: 1});
         current++;    //1, 2,3,4......8
 
-        if (current == maxNum) clearInterval(timer);
-        console.log(current);
+        if (current2 == maxNum) clearInterval(timer);
+        console.log(current2);
       }, 5000);
-});
-$(document).ready(function() {
-    var current = 0;   //시작되는 이미지의 번호
-    var maxNum = 8;
+    
+    var current3 = 0;   //시작되는 이미지의 번호
 
     var timer = setInterval(function () {
-        $('.YC').eq(current).animate({opacity: 1});
+        $('.YC').eq(current3).animate({opacity: 1});
         current++;    //1, 2,3,4......8
 
-        if (current == maxNum) clearInterval(timer);
-        console.log(current);
+        if (current3 == maxNum) clearInterval(timer);
+        console.log(current3);
       }, 5000);
-});
-$(document).ready(function() {
-    var current = 0;   //시작되는 이미지의 번호
-    var maxNum = 8;
+
+    var current4 = 0;   //시작되는 이미지의 번호
 
     var timer = setInterval(function () {
-        $('.container').eq(current).animate({opacity: 1});
+        $('.container').eq(current4).animate({opacity: 1});
         current++;    //1, 2,3,4......8
 
-        if (current == maxNum) clearInterval(timer);
-        console.log(current);
+        if (current4 == maxNum) clearInterval(timer);
+        console.log(current4);
       }, 3000);
-});
 
-
-$(document).ready(function () {
     var $win = $(window);
 	var winHei=$win.height();	// window height
 
@@ -98,8 +85,7 @@ $(document).ready(function () {
             });
         //}, 100);
     });
-});
-$(document).ready(function(){
+
 	//header 바로가기 메뉴
 	$("#intro .amg_headline .amg_skiplist li a").on("click", function () {
 		var $list = $("#intro .amg_headline .amg_skiplist");
@@ -115,11 +101,8 @@ $(document).ready(function(){
 		return false;
 	});
 
-});
-$(document).on('ready', function () {
     setTimeout(function () {
         $('.letter').addClass('loaded');
         $('.reg-text').addClass('loaded');
     }, 1000);
 });
-
