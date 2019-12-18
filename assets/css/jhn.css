@@ -39,7 +39,7 @@
 #content .eq_article .eq_tit_odd{right: 220px;}
 #content .eq_article .eq_tit_even{left: 220px;}
 
-#content .eq_article .eq_link_odd, #content .eq_article .eq_link_even{font-weight: 300; font-size: 18px; z-index: 150; color: #fff; top: 990px; letter-spacing: 5px;}
+#content .eq_article .eq_link_odd, #content .eq_article .eq_link_even{font-size: 18px; z-index: 150; color: #fff; top: 990px; letter-spacing: 5px;}
 #content .eq_article .eq_link_odd{right: 240px; width: 270px;}
 #content .eq_article .eq_link_even{left: 230px; width: 350px;}
 
@@ -107,6 +107,6 @@
 .membership_md img{display: block; width: 560px; height: 330px; margin: 40px auto;}
 .membership_md p{line-height: 40px; text-align: center;}
 .membership_md p span{font-weight: 500; color: #5a90d6;}
-.membership_md > a{display: block; font-weight: 400; font-size: 18px; border: 1px solid #fff; width: 200px; height: 50px; line-height: 50px; text-align: center; margin: 30px auto; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
+.membership_md > a{display: block; font-size: 18px; border: 1px solid #fff; width: 200px; height: 50px; line-height: 50px; text-align: center; margin: 30px auto; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
 .membership_md a:hover, .membership_md a:focus{background: #fff; color: #1e1e1e;}
 .m_mdcnt1, .m_mdcnt3{display: none;}

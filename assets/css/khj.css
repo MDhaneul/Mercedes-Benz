@@ -11,7 +11,7 @@
 .com{height: 550px;background: url("../images/introduce/title_img.jpg");}
 .pro{background: url("../images/promotion/title_img.jpg");height: 550px;}
 
-.company_btn{height: 120px;text-align: center;font-weight: 400;margin-bottom: 130px;font-size: 25px;}
+.company_btn{height: 120px;text-align: center;margin-bottom: 130px;font-size: 25px;}
 .sub_tit{font-size: 35px;text-align: left;}
 .highlight{height: 30px;margin-top:10px;font-size: 25px;}
 .cnt p{font-size: 15px;line-height: 30px;}
@@ -106,4 +106,4 @@
 .featherlight .featherlight-content .md_cnt .btn a:hover,.featherlight .featherlight-content .md_cnt .btn a:focus{background: #424242;color:#fff}
 
 /* p */
-#content .s_txt{font-size: 15px;padding:30px 0 30px 278px;line-height: 1.5;margin-top: -150px;background: #e9e9e9;}
+#content .s_txt{font-size: 15px;padding:90px 0 90px 278px;line-height: 1.8;background: #e9e9e9;}
